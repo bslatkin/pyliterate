@@ -87,6 +87,7 @@ Here's a list of various detailed features that are provided by the `run_markdow
 - Use ```````python-include:path/to/file.py```` to include an external Python file relative to the `--root_dir` flag, which defaults to the root of the book directory. This will automatically insert a comment of the source file's relative path at the top of the included source
 - The `random.seed` is always set to `1234` so your random functions have predictable output
 - The timezone is always set to `US/Pacific` so your code runs in the same timezone regardless of where your computer currently is located
+- The script will only be allowed to run for `--timeout_seconds` before being terminated (defaults to 5 seconds)
 
 ## TODO
 
