@@ -1,0 +1,4 @@
+{
+    "cmd": ["run_markdown", "--overwrite", "$file"],
+    "selector": "text.html.markdown.gfm",
+}
